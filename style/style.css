@@ -8,7 +8,7 @@ body {
     display: grid;
     place-items: center;
     font-family: "InterVariableFont", Arial, sans-serif;
-    margin: 50px;
+    margin-top: 50px;
     color: white;
 }
 h2, p {
