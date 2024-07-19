@@ -9,6 +9,7 @@ body {
     place-items: center;
     font-family: "InterVariableFont", Arial, sans-serif;
     margin: 50px;
+    color: white;
 }
 h2, p {
     font-family: "InterVariableFont", Arial, sans-serif;
