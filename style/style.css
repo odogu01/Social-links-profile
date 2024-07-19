@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "InterVariableFont";
+    src: url(/assets/fonts/Inter-VariableFont_slnt\,wght.ttf) format('truetype');
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    display: grid;
+    place-items: center;
+    font-family: "InterVariableFont", Arial, sans-serif;
+}
+h2, p {
+    font-family: "InterVariableFont", Arial, sans-serif;
+}
+.container{
+    max-width: 600px;
+    background-color: hsl(0, 0%, 12%);
+    place-self: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 40px;
+    border-radius: 10px;
+}
+.contain {
+    width: 100%;
+}
+.header {
+    line-height: 5px;
+    margin: 2em;
+}
+.header h2 {
+    text-align: center;
+    color: white;
+}
+.header p{
+    text-align: center;
+    color: hsl(75, 94%, 57%);
+    font-weight: 900;
+    font-size: 0.75em;
+}
+.image {
+    display: flex;
+    justify-content: center;
+}
+.image img {
+    width: 30%;
+    border-radius: 50%;
+}
+.paragraph {
+    color: white;
+    text-align: center;
+}
+.quote {
+    margin: 10px;
+}
+.quote q{
+    font-size: 0.8em;
+}
+.socials {
+    display: grid;
+    width: 100%;
+}
+.socials a{
+    width: 90%;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.socials a:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+}
